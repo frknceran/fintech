@@ -59,7 +59,7 @@ const Register = () => {
         toast.error(msg);
         setError("email", { message: msg });
       } else {
-        setError("root", { message: "Something went wrong" });
+        toast.error("Something went wrong");
       }
     },
   });
