@@ -78,14 +78,14 @@ const Dashboard = () => {
     return (
       <div className="flex min-h-[200px] flex-col items-center justify-center gap-4 p-6 text-center">
         <p className="text-lg text-[#78778B]">
-          Bir hata oluştu. Lütfen tekrar deneyin.
+          An error occurred. Please try again.
         </p>
         <button
           type="button"
           onClick={refetchAll}
           className="rounded-lg bg-[#C8EE44] px-4 py-2 text-sm font-semibold text-[#1B212D] transition hover:opacity-90"
         >
-          Tekrar dene
+          Try again
         </button>
       </div>
     );

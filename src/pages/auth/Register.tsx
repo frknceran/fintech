@@ -40,7 +40,7 @@ const Register = () => {
   const mutation = useMutation({
     mutationFn: registerService,
     onSuccess: async (data, variables) => {
-      toast.success(data?.message ?? "Hesabınız oluşturuldu.");
+      toast.success(data?.message ?? "Account created successfully.");
       try {
         const loginResponse = await loginService({
           email: variables.email,
@@ -49,7 +49,7 @@ const Register = () => {
         login(loginResponse);
         navigate("/dashboard");
       } catch {
-        toast.error("Giriş yapılamadı. Lütfen giriş sayfasından deneyin.");
+        toast.error("Could not sign in. Please try again from the sign in page.");
         navigate("/login");
       }
     },

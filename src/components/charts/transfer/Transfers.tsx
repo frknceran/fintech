@@ -37,7 +37,7 @@ export const Transfers = ({ data = [] }: TransfersProps) => {
       <div className="flex flex-col gap-3">
         {list.length === 0 ? (
           <p className="py-4 text-center text-sm text-[#929EAE]">
-            Planlanmış transfer yok.
+            No scheduled transfers.
           </p>
         ) : (
           list.map((item) => {

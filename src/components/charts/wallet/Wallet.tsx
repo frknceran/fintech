@@ -51,7 +51,7 @@ export const Wallet = ({ data = [] }: WalletProps) => {
       >
         {cards.length === 0 ? (
           <div className="rounded-2xl border-2 border-dashed border-[#E5E7EB] bg-[#FAFAFA] py-12 text-center text-[#929EAE]">
-            Henüz kart eklenmemiş.
+            No cards added yet.
           </div>
         ) : (
           cards.map((card, index) => (

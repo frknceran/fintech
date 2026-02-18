@@ -56,7 +56,7 @@ export const Transactions = ({ data = [] }: TransactionsProps) => {
             {list.length === 0 ? (
               <tr>
                 <td colSpan={4} className="py-6 text-center text-[#929EAE]">
-                  Henüz işlem yok.
+                  No transactions yet.
                 </td>
               </tr>
             ) : (

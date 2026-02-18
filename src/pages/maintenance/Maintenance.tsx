@@ -8,14 +8,13 @@ const Maintenance = () => {
           <Wrench className="h-10 w-10 sm:h-12 sm:w-12" strokeWidth={1.5} />
         </div>
         <h1 className="mb-3 text-2xl font-semibold text-[#1B212D] sm:text-3xl">
-          Bakımdayız
+          We're under maintenance
         </h1>
         <p className="mb-2 text-base text-[#78778B] sm:text-lg">
-          Sistemimiz şu an güncelleniyor.
+          Our system is currently being updated.
         </p>
         <p className="text-sm text-[#929EAE] sm:text-base">
-          Kısa süre içinde bu sayfayı tekrar ziyaret edebilirsiniz. Anlayışınız
-          için teşekkür ederiz.
+          Please visit this page again shortly. Thank you for your understanding.
         </p>
       </div>
     </div>
