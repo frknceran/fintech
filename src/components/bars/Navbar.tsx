@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Down from "@/assets/Down.png";
+import Down from "@/assets/down.png";
 import Bell from "@/assets/Bell.png";
 import { Search, User, LogOut, Menu } from "lucide-react";
 import { useAuth } from "@/context/useAuth";
