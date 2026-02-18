@@ -86,3 +86,6 @@ npm run lint
 - **Server state**: TanStack Query ile API verisi cache, refetch ve loading/error state’leri yönetiliyor; client state ile ayrı tutuluyor.
 - **Auth**: Context + localStorage ile oturum yönetimi; korumalı sayfalar `ProtectedRoute` ile sarılı.
 - **API**: Axios tabanlı merkezi client (`src/lib/api.ts`), servis katmanı (`services/`) ile ayrılmış.
+- **Google ile Giriş**: Google ile giriş butonu, sağlanan tasarıma uygun olarak arayüzde yer almaktadır.
+  Ancak mevcut backend API’de Google OAuth entegrasyonu için bir endpoint bulunmadığından,
+  bu özellik demo kapsamında bilinçli olarak devre dışı bırakılmıştır.
